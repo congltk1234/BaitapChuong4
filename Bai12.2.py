@@ -3,7 +3,7 @@ import string
 
 #Tạo giá trị cho name
 n = random.randint(1,15)
-name = random.choice(string.ascii_uppercase)
+name = random.choice(string.ascii_letters)
 for i in range(n):
     name += random.choice(string.ascii_lowercase)
     
